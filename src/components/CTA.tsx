@@ -45,14 +45,14 @@ export default function CTA() {
             {
               icon: Phone,
               title: 'Call Us',
-              value: '+91-9066-231-292',
-              link: 'tel:919066231292',
+              value: '+91-7204127613',
+              link: 'tel:+91-7204127613',
             },
             {
               icon: Mail,
               title: 'Email Us',
-              value: 'info@rejimonRajufinance.in',
-              link: 'mailto:info@rejimonRajufinance.in',
+              value: 'info@Bookrevery.in',
+              link: 'mailto:info@Bookrevery.in',
             },
             {
               icon: Calendar,

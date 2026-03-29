@@ -5,44 +5,53 @@ export default function About() {
     <section id="about" className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
-          <div>
-            <span className="text-primary-600 font-semibold">About Us</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-6">
-              WHY BOOKREVERY ?
+        <div className="-mt-10 lg: text-center lg:text-left">
+  {/* Tag */}
+  <p className="text-sm tracking-widest text-primary-600 font-semibold mb-3">
+    ABOUT US
+  </p>
 
-            </h2>
+  {/* Heading */}
+  <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+    Why Bookrevery?
+  </h2>
 
-            <p className="text-gray-600 text-xl leading-relaxed mb-6">
-              India compliance is complex. We
-              make it simple.            </p>
+  {/* Subheading */}
+  <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-4">
+    India compliance is complex. We make it simple.
+  </p>
 
-            <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              Foreign companies face a dense web of Indian regulations — GST, TDS,
-              Companies Act, FEMA, RBI. One missed deadline means penalties.
-              Bookrevery is your full-stack compliance team on the ground            </p>
+  {/* Description */}
+  <p className="text-gray-500 text-base leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
+    Foreign companies face a dense web of Indian regulations — GST, TDS,
+    Companies Act, FEMA, RBI. One missed deadline means penalties.
+    Bookrevery is your full-stack compliance partner on the ground.
+  </p>
 
-            {/* Features */}
-            <div className="space-y-4">
-              {[
-                'Expert Accounting Professionals',
-                'Multi-country Tax Expertise',
-                'Cost-Effective Solutions',
-                'Quick Turnaround Time',
-                'Dedicated Account Managers',
-                'Latest Financial Technology',
-              ].map((feature, index) => (
-                <div key={index} className="flex items-center gap-3">
-                  <CheckCircle size={24} className="text-secondary-600 flex-shrink-0" />
-                  <span className="text-gray-700 font-medium">{feature}</span>
-                </div>
-              ))}
-            </div>
+  {/* Features */}
+  <div className="grid sm:grid-cols-2 gap-4 mb-10 text-left max-w-xl mx-auto lg:mx-0">
+    {[
+      "Expert Accounting Professionals",
+      "Multi-country Tax Expertise",
+      "Cost-Effective Solutions",
+      "Quick Turnaround Time",
+      "Dedicated Account Managers",
+      "Latest Financial Technology",
+    ].map((feature, index) => (
+      <div key={index} className="flex items-center gap-2">
+        <CheckCircle className="w-5 h-5 text-primary-600 flex-shrink-0" />
+        <span className="text-gray-700 text-sm">{feature}</span>
+      </div>
+    ))}
+  </div>
 
-            <button className="mt-8 bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition">
-              Know More About Us
-            </button>
-          </div>
+  {/* Button */}
+  <div className="flex justify-center lg:justify-start">
+    <button className="bg-primary-600 text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-primary-700 transition">
+      Know More About Us
+    </button>
+  </div>
+</div>
 
           {/* Right Content */}
           <div className="relative">
@@ -102,79 +111,11 @@ export default function About() {
 
             </div>
           </div>
-
+          
         </div>
-
+        
       </div>
-<section className="bg-gray-50 py-20 mt-20 px-4">
-  {/* Heading */}
-  <div className="text-center max-w-3xl mx-auto mb-16">
-    <p className="text-orange-500 tracking-widest text-sm font-semibold">
-      HOW WE WORK
-    </p>
-
-    <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mt-4 leading-tight">
-      From India entry decision to <br className="hidden md:block" />
-      fully compliant operations
-    </h2>
-  </div>
-
-  {/* Steps */}
-  <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-
-    {/* Card */}
-    {[
-      {
-        no: "01",
-        title: "Discovery Call",
-        desc: "We understand your business model, India entry structure and parent company requirements in a free 45-minute call.",
-      },
-      {
-        no: "02",
-        title: "India Entry Plan",
-        desc: "We recommend the right legal structure, compliance calendar and timeline tailored to your needs.",
-      },
-      {
-        no: "03",
-        title: "Registration & Setup",
-        desc: "Complete MCA, PAN, TAN, GST and regulatory registrations handled seamlessly.",
-      },
-      {
-        no: "04",
-        title: "Ongoing Compliance",
-        desc: "Monthly bookkeeping, GST, TDS, payroll and ROC filings — fully managed.",
-      },
-      {
-        no: "05",
-        title: "Parent Reporting",
-        desc: "Clear MIS reports structured for easy consolidation with your parent company.",
-      },
-    ].map((step, index) => (
-      <div
-        key={index}
-        className="bg-white rounded-2xl p-8 text-center shadow-sm hover:shadow-xl transition duration-300 hover:-translate-y-2"
-      >
-        {/* Circle */}
-        <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full border-2 border-orange-500 text-orange-500 font-bold text-lg mb-6">
-          {step.no}
-        </div>
-
-        {/* Title */}
-        <h3 className="text-lg font-semibold text-gray-800">
-          {step.title}
-        </h3>
-
-        {/* Description */}
-        <p className="text-gray-500 text-sm mt-3 leading-relaxed">
-          {step.desc}
-        </p>
-      </div>
-    ))}
-
-  </div>
-</section>
+      
     </section>
-
-
   )
 }

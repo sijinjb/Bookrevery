@@ -92,8 +92,8 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={20} className="text-primary-400" />
-                <a href="mailto:info@rejimonRajufinance.in" className="text-gray-400 hover:text-primary-400">
-                  info@rejimonRajufinance.in
+                <a href="mailto:info@Bookrevery.in" className="text-gray-400 hover:text-primary-400">
+                  info@Bookrevery.in
                 </a>
               </div>
             </div>
@@ -106,7 +106,7 @@ export default function Footer() {
         {/* Bottom Footer */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <p className="text-gray-400 text-sm">
-            © 2025 Rejimon Raju. All rights reserved.
+            © 2025 Bookrevery. All rights reserved.
           </p>
           <div className="flex gap-6 md:justify-end text-sm">
             <a href="#" className="text-gray-400 hover:text-primary-400 transition">

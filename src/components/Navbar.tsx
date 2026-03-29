@@ -30,7 +30,7 @@ export default function Navbar() {
               Testimonials
             </a>
             <a
-              href="tel:917304842523"
+              href="tel:+917204127613"
               className="bg-primary-600 text-white px-6 py-3 rounded-full hover:bg-primary-700 transition font-semibold"
             >
               Call Us
@@ -62,7 +62,7 @@ export default function Navbar() {
               Testimonials
             </a>
             <a
-              href="tel:917304842523"
+              href="tel:+917204127613"
               className="block mt-4 bg-primary-600 text-white px-6 py-2 rounded-full text-center hover:bg-primary-700 transition"
             >
               Call Us

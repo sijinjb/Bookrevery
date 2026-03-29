@@ -39,7 +39,8 @@ export default function Hero() {
                                 Schedule Consultation
                                 <ArrowRight size={20} />
                             </button>
-                            <button className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-primary-50 transition">
+                            <button className="border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-primary-50 transition"
+                            >
                                 Learn More
                             </button>
                         </div>
