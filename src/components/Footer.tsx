@@ -8,12 +8,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent mb-4">
-              MapMyFinance
-            </h3>
+            <h1 className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
+              Bookrevery
+            </h1>
             <p className="text-gray-400 leading-relaxed">
-              Your trusted financial partner for accounting, taxation, and incorporation services.
-            </p>
+              India compliance and accounting for
+              foreign companies. ICAI-qualified.
+              Japan specialist. Serving US, UK,
+              Germany, Singapore, Australia and
+              UAE clients            </p>
             <div className="flex gap-4 mt-6">
               {[Facebook, Twitter, Linkedin, Instagram].map((Icon, index) => (
                 <a
@@ -51,11 +54,12 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6">Services</h4>
             <ul className="space-y-3">
               {[
-                'Bookkeeping',
-                'Tax Filing',
                 'Company Registration',
-                'Financial Advisory',
-                'Payroll Services',
+                'GST & Returns',
+                'TDS Compliance',
+                'ROC Filings',
+                'Payroll & PF/ESI',
+                'Transfer Pricing & FEMA',
               ].map((service) => (
                 <li key={service}>
                   <a

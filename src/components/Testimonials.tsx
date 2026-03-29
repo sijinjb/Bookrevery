@@ -2,28 +2,28 @@ import { Star } from 'lucide-react'
 
 const testimonials = [
   {
-    name: 'Rajesh Patel',
-    position: 'Director, DataDevice Pty Ltd',
-    location: 'Australia',
+    name: 'Hiroshi T.',
+    position: 'CFO, Japanese Manufacturing Co. — Pune, India',
+    // location: 'Australia',
     image: '👨‍💼',
     rating: 5,
-    text: 'Big thanks to Riya for her outstanding work on our Australian company. Her expertise in Xero advisory and accounting services has truly transformed our financial processes. We are impressed by her dedication and efficiency.',
+    text: "Bookrevery handled our entire India subsidiary setup — from MCA registration to GST and TDS. Within 6 weeks we were fully operationaland compliant. The teams knowledge of Japanese reportingexpectations was impressive"
   },
   {
-    name: 'Satish Shenoy',
-    position: 'Director, Essen Engineers',
-    location: 'India',
+    name: 'Mark S.',
+    position: 'Operations Director, US Tech Company — Bengaluru, India',
+    // location: 'India',
     image: '👨‍💼',
     rating: 5,
-    text: 'Riya handled our GST filing, income tax filing, and accounting with exceptional expertise and professionalism. Her proficiency in GST and income tax procedures significantly impacted our business. Highly recommended!',
+    text: "We had been struggling with our India GST and TDS compliance fortwo years with a local firm. Bookrevery took over and cleaned up 18 months of backlog in 60 days. Now everything runs on time, every month."
   },
   {
-    name: 'Priya Sharma',
-    position: 'Founder, Tech Innovations',
-    location: 'USA',
+    name: 'Priya N',
+    position: 'India Country Head, UK Financial Services — Mumbai, India',
+    // location: 'USA',
     image: '👩‍💼',
     rating: 5,
-    text: 'Outstanding service and attention to detail. MapMyFinance has been instrumental in helping us navigate complex tax requirements across multiple jurisdictions. Professional, responsive, and highly competent team.',
+    text:"The monthly MIS reports Bookrevery provides are exactly what our UK parent needs for consolidation. Clean, consistent and always delivered by the 5th of the month. Exactly what we needed."
   },
 ]
 
@@ -80,22 +80,7 @@ export default function Testimonials() {
           ))}
         </div>
 
-        {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
-          {[
-            { number: '500+', label: 'Happy Clients' },
-            { number: '15+', label: 'Years Experience' },
-            { number: '98%', label: 'Satisfaction Rate' },
-            { number: '24/7', label: 'Support' },
-          ].map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary-600">
-                {stat.number}
-              </div>
-              <p className="text-gray-600 mt-2">{stat.label}</p>
-            </div>
-          ))}
-        </div>
+
       </div>
     </section>
   )

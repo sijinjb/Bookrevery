@@ -10,12 +10,12 @@ import {
 const services = [
   {
     icon: Calculator,
-    title: 'Bookkeeping & Accounting',
+    title: 'Monthly Bookkeeping',
     description: 'Complete bookkeeping and accounting services with Xero expertise for Australian companies.',
   },
   {
     icon: FileText,
-    title: 'Tax Filing',
+    title: 'GST & Tax Compliance',
     description: 'GST filing, income tax filing, and comprehensive tax planning for optimal results.',
   },
   {
@@ -29,14 +29,14 @@ const services = [
     description: 'Strategic financial planning and advisory services to grow your business.',
   },
   {
-    icon: TrendingUp,
-    title: 'Financial Analysis',
-    description: 'Detailed financial analysis and reporting for better decision making.',
+    icon: FileText,
+    title: 'ROC & FEMA Filings',
+    description: 'Annual returns, FEMA remittances, RBI reporting.',
   },
   {
     icon: BarChart3,
-    title: 'Payroll Services',
-    description: 'Complete payroll management and compliance reporting solutions.',
+    title: 'Payroll & HR Compliance',
+    description: 'PF, ESI, PT, TDS on salary.',
   },
 ]
 

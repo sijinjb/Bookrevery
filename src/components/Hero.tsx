@@ -26,9 +26,9 @@ export default function Hero() {
                         </div>
                         <div>
                             <p>Bookrevery handles the complete accounting, compliance and
-regulatory burden for foreign companies entering or operating in
-India — so your team can focus on building your business, not
-navigating red tape</p>
+                                regulatory burden for foreign companies entering or operating in
+                                India — so your team can focus on building your business, not
+                                navigating red tape</p>
                         </div>
 
                         <p className="text-xl text-gray-600 leading-relaxed">
@@ -123,8 +123,27 @@ navigating red tape</p>
                             </div>
                         </div>
                     </div>
+
+                </div>
+
+                {/* Stats */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 text-center animate-slideUp">
+                    {[
+                        { number: '8', label: 'Compilance Service' },
+                        { number: '15+', label: 'Years Experience' },
+                        { number: '8+', label: 'Countries Served' },
+                        { number: '24/7', label: 'Support' },
+                    ].map((stat, index) => (
+                        <div key={index} className="text-center">
+                            <div className="text-3xl md:text-4xl font-bold text-primary-600">
+                                {stat.number}
+                            </div>
+                            <p className="text-gray-600 mt-2">{stat.label}</p>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
+
     )
 }

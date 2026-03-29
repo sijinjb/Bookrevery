@@ -23,13 +23,15 @@ export default function CTA() {
         {/* Main CTA */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Transform Your Finances?
+            Ready to set up or fix your India
+            compliance?
           </h2>
           <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-            Get a free consultation from our experts. Let us help you optimize your financial operations.
-          </p>
+            Book a free 45−minute consultation. We will assess your current situation,
+            identify any compliance gaps and give you a clear action plan — at no
+            charge.          </p>
 
-          <button 
+          <button
             onClick={() => setIsFormOpen(true)}
             className="bg-white text-primary-600 px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition transform hover:scale-105 active:scale-95"
           >
@@ -79,7 +81,7 @@ export default function CTA() {
 
       {/* Modal Overlay */}
       {isFormOpen && (
-        <div 
+        <div
           className="fixed inset-0 bg-black bg-opacity-50 z-40 backdrop-blur-sm animate-fadeIn"
           onClick={() => setIsFormOpen(false)}
         />
@@ -88,7 +90,7 @@ export default function CTA() {
       {/* Modal Form */}
       {isFormOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
-          <div 
+          <div
             className="bg-white rounded-3xl shadow-2xl max-w-md w-full transform animate-slideUp"
             onClick={e => e.stopPropagation()}
           >
