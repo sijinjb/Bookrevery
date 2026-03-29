@@ -4,7 +4,7 @@ import {
   Building2,
   DollarSign,
   Calculator,
-  TrendingUp,
+  
 } from 'lucide-react'
 
 const services = [

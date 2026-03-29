@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: 'Hiroshi T.',
     position: 'CFO, Japanese Manufacturing Co. — Pune, India',
-    // location: 'Australia',
+    location: 'Australia',
     image: '👨‍💼',
     rating: 5,
     text: "Bookrevery handled our entire India subsidiary setup — from MCA registration to GST and TDS. Within 6 weeks we were fully operationaland compliant. The teams knowledge of Japanese reportingexpectations was impressive"
@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: 'Mark S.',
     position: 'Operations Director, US Tech Company — Bengaluru, India',
-    // location: 'India',
+    location: 'India',
     image: '👨‍💼',
     rating: 5,
     text: "We had been struggling with our India GST and TDS compliance fortwo years with a local firm. Bookrevery took over and cleaned up 18 months of backlog in 60 days. Now everything runs on time, every month."
@@ -20,7 +20,7 @@ const testimonials = [
   {
     name: 'Priya N',
     position: 'India Country Head, UK Financial Services — Mumbai, India',
-    // location: 'USA',
+    location: 'USA',
     image: '👩‍💼',
     rating: 5,
     text:"The monthly MIS reports Bookrevery provides are exactly what our UK parent needs for consolidation. Clean, consistent and always delivered by the 5th of the month. Exactly what we needed."
