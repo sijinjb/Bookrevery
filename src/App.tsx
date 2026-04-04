@@ -6,6 +6,7 @@ import Testimonials from './components/Testimonials'
 import About from './components/About'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
+import WhatsAppFloat from './components/WhatsAppFloat'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About />
       <CTA />
       <Footer />
+      <WhatsAppFloat />
     </div>
   )
 }
